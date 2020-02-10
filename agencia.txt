@@ -1,0 +1,109 @@
+<!--Header_section--> 
+<section id="aboutUs"><!--Aboutus-->
+  <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+    <div class="container">
+      <div class="fadehr fadeInRight animated wow delay-50s">
+        <hr style="width:30%;text-align:center">
+        </div>
+      <h1>Quem Somos?</h1>
+      <div class="fadehr fadeInLeft animated wow delay-50s"> 
+        <hr style="width:30%;text-align:center">
+        </div>
+    <h6>Somos a Agencia Negro, uma agência virtual focado na criação de experiências digitais. <br>
+      Usamos todo o nosso conhecimento para ajudar nossos clientes a construírem suas marcas através da interatividade.</h6>
+<!-- primeiro-->
+      <div class="inner_section"> 
+        <div class="row">
+          <div class="col-lg-12 about-us fadeInLeft animated wow delay-50s">
+            <div class="col-md-6 "> <img class="img-responsive" src="img/icons-am.png" align=""> </div>
+                  <div class="col-md-6">
+                    <br><br><br><br>
+                    <p>
+    <div class="text fadeInRight animated wow delay-60s" > 
+    <h2>Sites <br>Personalizados</h2><br>
+  <h6> Tudo o que criamos é pensado como se fosse um cliente visitando a sua loja. Cada projeto é feito de acordo com as necessidades do cliente.</h6>
+                    </p>
+  </div>  
+       
+   </div><!-- /.col-md-6 -->
+                  
+    </div><!-- /.row -->	
+    </div><!-- /.col-lg-12 -->
+
+
+
+      <!--segundo-->        
+      <div class="inner_section"> 
+        <div class="row">
+                <div class="col-lg-12 about-us fadeInRight animated wow delay-50s">
+                  
+                    <div class="col-md-6">
+                      <br><br><br><br>
+                      <p>
+                        <div class="text fadeInLeft animated wow delay-60s" > 
+                       <h2> Site Mobile</h2><br>
+                      <h6>Site com layout responsivo para fácil leitura e navegação em tablets e smartphones, além de computadores para que se adequem aos dispositivos.</h6> </p>
+                      </div>          
+                      </ul><!-- /.about-us-list -->
+                      
+                    </div><!-- /.col-md-6 -->
+                    <div class="col-md-6"> <img class="img-responsive" src="img/icons-am2.png" align=""> 
+       
+   </div><!-- /.col-md-6 -->
+                  
+    </div><!-- /.row -->	
+    </div>
+
+   
+
+
+<!--Terceiro-->
+<div class="inner_section"> 
+  <div class="row">
+    <div class="col-lg-12 about-us fadeInLeft animated wow delay-50s">
+      <div class="col-md-6 "> <img class="img-responsive" src="img/icons-am3.png" align=""> </div>
+            <div class="col-md-6">
+              <br><br><br><br>
+              <p>
+<div class="text fadeInRight animated wow delay-60s" > 
+<h2>E-Commerce</h2><br>
+<h6> Lojas virtuais com layout intuitivo e de fácil uso e gerenciamento, para seu negócio lucrar sem dor de cabeça.</h6>
+              </p>
+</div>  
+ 
+</div><!-- /.col-md-6 -->
+            
+</div><!-- /.row -->	
+</div><!-- /.col-lg-12 -->
+
+
+
+
+
+      <!--segundo-->        
+      <div class="inner_section"> 
+        <div class="row">
+                <div class="col-lg-12 about-us fadeInRight animated wow delay-50s">
+                  
+                    <div class="col-md-6">
+                      <br><br><br><br>
+                      <p>
+                        <div class="text fadeInLeft animated wow delay-60s" > 
+                       <h2> Site Mobile</h2><br>
+                      <h6>Desenvolvemos aplicativos para as plataformas iOS (iPad e iPhone) e Android (tablets e smartphones).</h6> </p>
+                      </div>          
+                      </ul><!-- /.about-us-list -->
+                      
+                    </div><!-- /.col-md-6 -->
+                    <div class="col-md-6"> <img class="img-responsive" src="img/icons-am4.png" align=""> 
+       
+   </div><!-- /.col-md-6 -->
+                  
+    </div><!-- /.row -->	
+    </div>
+
+
+    </div><!-- /.fecha container -->
+        
+
+  </section>

@@ -1,0 +1,63 @@
+	<div class="hr">
+				<div class="line  line-left draw"></div>
+				<div class="inline-svg draw " data-width="79" data-height="27"
+					data-src="https://gardenestudio.com.br/img/ornamento-small.svg"></div>
+				<div class="line  line-right draw"></div>
+			</div>
+			<h2 class="servicos-title">
+				<div class="inline-svg draw ornament-left" data-src="https://gardenestudio.com.br/img/ornamento.svg">
+				</div>
+				O Que Fazemos
+				<div class="inline-svg draw ornament-right" data-src="https://gardenestudio.com.br/img/ornamento.svg">
+				</div>
+			</h2>
+
+			<ul class="servicos-items">
+				<li class="servicos-item">
+					<div class="servico-icon">
+						<div class="inline-svg draw"
+							data-src="https://gardenestudio.com.br/img/servicos/personalizado.svg" data-width="361"
+							data-height="272"></div>
+					</div>
+					<div class="servico-content">
+						<div class="servico-title">Sites Personalizados</div>
+						<div class="servico-text">
+							Tudo o que criamos é único. Cada projeto é feito de acordo com as necessidades do cliente.
+						</div>
+					</div>
+				</li>
+				<li class="servicos-item">
+					<div class="servico-content">
+						<div class="servico-title">Site Mobile</div>
+						<div class="servico-text">
+							Site com layout responsivo para fácil leitura e navegação em tablets e smartphones, além de
+							computadores. </div>
+					</div>
+					<div class="servico-icon">
+						<div class="inline-svg draw" data-src="https://gardenestudio.com.br/img/servicos/responsivo.svg"
+							data-width="400" data-height="290"></div>
+					</div>
+				</li>
+				<li class="servicos-item">
+					<div class="servico-icon">
+						<div class="inline-svg draw" data-src="https://gardenestudio.com.br/img/servicos/ecommerce.svg"
+							data-width="435" data-height="267"></div>
+					</div>
+					<div class="servico-content">
+						<div class="servico-title">E-Commerce</div>
+						<div class="servico-text">
+							Lojas virtuais com layout intuitivo e de fácil uso e gerenciamento. </div>
+					</div>
+				</li>
+				<li class="servicos-item">
+					<div class="servico-content">
+						<div class="servico-title">Aplicativos</div>
+						<div class="servico-text">
+							Desenvolvemos aplicativos para as plataformas iOS (iPad e iPhone) e Android (tablets e
+							smartphones). </div>
+					</div>
+					<div class="servico-icon">
+						<div class="inline-svg draw" data-src="https://gardenestudio.com.br/img/servicos/app.svg"
+							data-width="396" data-height="305"></div>
+					</div>
+				</li>

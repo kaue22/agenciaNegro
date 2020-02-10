@@ -1,0 +1,9 @@
+ background: rgb(30, 3, 46);
+
+
+ linha 349
+  rgb(7, 41, 75);h
+
+
+
+  <div class="col-md-6"> <img class="img-responsive" src="img/about1.png" align=""> </div><!-- /.col-md-6 -->

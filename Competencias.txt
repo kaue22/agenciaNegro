@@ -1,0 +1,22 @@
+Competencias
+Backend
+- PHP(5.3 ...)
+- CodeIgniter
+- Lavavel
+- Nodejs
+
+
+FrontEnd
+- React
+- Gatsby    
+- CSS 3
+- HTML 5
+- Bootstrap
+
+Mobile
+-React Native
+
+- Outros
+- Unity 3D
+- Docker
+- Linux
