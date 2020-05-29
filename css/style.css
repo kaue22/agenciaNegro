@@ -5,6 +5,31 @@
     padding: 0px;
     margin: 0px;
 }
+.carousel {
+    display: none;
+}
+#testando {
+    background: #b46350;
+    width: 100%!important;
+    text-align: center;
+    font-size: 46px!important;
+    flex-direction: row;
+    color: #F4B534;
+    margin: 0 0 50px 0;
+    padding-bottom: 8rem;
+   
+}
+
+
+#testandoA {
+    width: 100%!important;
+    text-align: center;
+    font-size: 46px!important;
+    flex-direction: row;
+    margin: 0 0 50px 0;
+    padding-bottom: 4rem;
+  
+}
 
 .masthead {
     min-height: 30rem;
@@ -14,7 +39,6 @@
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/code-site.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,10 +64,12 @@ a, a:hover, a:active {
     font-weight: bolder;
     font-size: 18px;
 }
+
 .img-fluid {
     width: 100%;
     height: auto;
 }
+
 .clear {
     clear: both;
     display: block;
@@ -123,7 +149,7 @@ a.logo {
 /* For some effects it will show as a button */
 
 .grid figure figcaption>a {
-    z-index: 1000;
+    z-index: auto;
     text-indent: 200%;
     white-space: nowrap;
     font-size: 0;
@@ -230,6 +256,7 @@ body {
     font-weight: normal;
     color: #888888;
     margin: 0;
+    overflow-x: hidden;
 }
 
 hr {
@@ -286,10 +313,11 @@ h6 {
     text-align: center;
     margin: 0 0 0px 0;
 }
-h6#colortext
-{
- color:#002943;
+
+h6#colortext {
+    color: #002943;
 }
+
 p {
     font-family: 'Bitter', serif;
     line-height: 20px;
@@ -341,7 +369,7 @@ p {
 /* Header Styles
 ---------------------------------*/
 
-#header_wrapper {
+#containerMenu {
     background: #002943;
     padding: 15px 0px;
     width: 100%;
@@ -355,8 +383,17 @@ p {
 
 .header_box {
     position: relative;
+ 
+}
+#header_wrapper{
+    background-color: #002943!important;
 }
 
+.header_box_menu {
+    position: relative;
+    text-align: center;
+   
+}
 .logo {
     float: left;
     margin-top: 8px;
@@ -393,9 +430,10 @@ p {
 .navbar {
     min-height: 40px;
     margin-bottom: 0px;
-    text-align: center;
+    text-align: left;
     margin: 0.5%;
     display: inline-block;
+    background-color: #002943!important;
 }
 
 .navbar li {
@@ -437,7 +475,6 @@ p {
 .navStyle ul li {
     display: inline-block;
     margin: 0 5px;
-
 }
 
 .navbarLink {
@@ -532,7 +569,6 @@ p {
     position: relative;
     width: 100%;
     height: auto;
-    background: url('../img/code-site.png') no-repeat;
     background-size: cover;
 }
 
@@ -1051,6 +1087,18 @@ img {
     margin: 0;
 }
 
+.textQsAmarelo {
+    padding: 1px;
+    font-size: 18px!important;
+    text-align: center!important;
+    color: #dbb09a !important;
+    font-family: 'Bitter', serif;
+    line-height: 20px;
+    margin: 0;
+    top: 100%;
+    padding-top: 1mm;
+}
+
 .textQs1 {
     line-height: 1.625em;
     padding: 15px 0;
@@ -1247,7 +1295,6 @@ img {
 }
 
 .contact_section h2 {
-  
     color: #F4B534;
     margin: 0 0 50px 0;
     width: 100%!important;
@@ -1992,7 +2039,7 @@ img {
     position: absolute;
     right: 30px;
     width: 32px;
-    z-index: 1000;
+    z-index: auto;
     margin-top: -30px;
 }
 
@@ -2035,7 +2082,7 @@ div.mc-image {
     -webkit-border-radius: 23px;
     border-radius: 23px;
     cursor: pointer;
-    z-index: 1000;
+    z-index: auto;
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=0.5);
     opacity: 0.5;
@@ -2056,7 +2103,7 @@ div.mc-image {
     moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
-    z-index: 1000;
+    z-index: auto;
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);
     opacity: 1;
@@ -2127,63 +2174,111 @@ div.mc-image {
     font-size: 46px!important;
 }
 
+.formataAzul h2 {
+    width: 100%!important;
+    text-align: center;
+    font-size: 50px!important;
+    margin: 10px 10px;
+    flex-direction: row;
+    color: #7f171f!important;
+    margin: 0 0 50px 0;
+    width: 100%!important;
+    text-align: center;
+}
 
 @media (min-width: 200px) and (max-width: 1200px) {
-
-    section#QsPort
-    {   padding: 0px 0px;
-       
+    #containerMenu {
+        background: #002943;
+        padding: 15px 0px;
         width: 100%;
-
+        min-height: auto;
+        width: 100%;
+        text-align: center!important;
+        display: inline-block!important;
+        /* Mínimo da altura, por padrão “auto” */
+        /* margin-top: 60px; */
     }
-    .wow{
+    #containerA {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 2.5rem;
+    }
+    #testando {
+        background: #b46350;
+        width: 100%!important;
+        text-align: center;
+        font-size: 46px!important;
+        flex-direction: row;
+        margin: 0 0 50px 0;
+        padding-bottom: 10rem;
+    }
+    #testandoA {
+        width: 100%!important;
+        text-align: center;
+        font-size: 46px!important;
+        flex-direction: row;
+        margin: 0 0 50px 0;
+        padding-bottom: 8rem;
+    }
+    .formataAzul h2 {
+        width: 100%!important;
+        text-align: center;
+        font-size: 46px!important;
+        margin: 10px 10px;
+        flex-direction: row;
+        color: #7f171f!important;
+        margin: 0 0 50px 0;
+        width: 100%!important;
+        text-align: center;
+    }
+    section#QsPort {
+        padding: 0px 0px;
+        width: 100%;
+    }
+    .wow {
         animation-name: none !important;
         visibility: visible !important;
     }
-
-    h2#textContato
-    {
+    h2#textContato {
         margin: 0px 0px!important;
         flex-direction: row!important;
         color: #F4B534!important;
         width: 100%!important;
         text-align: center!important;
         font-size: 80px!important;
-        padding: 11px 0; 
+        padding: 11px 0;
     }
-
-.formata h2 {
-    margin: 10px 10px;
-    flex-direction: row;
-    font-size: 40px;
-    color: #F4B534!important;
-    margin: 0 0 50px 0;
-    width: 100%!important;
-    text-align: center;
-    font-size: 46px!important;
-}
-
+    .formata h2 {
+        margin: 10px 10px;
+        flex-direction: row;
+        font-size: 40px!important;
+        color: #F4B534!important;
+        margin: 0 0 50px 0;
+        width: 100%!important;
+        text-align: center;
+    }
     .container.portfolio_title {
         padding-top: 2rem;
     }
-h6 {
-    font-size: 18px;
-    color: #002943;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 0px 0;
-}
-
-h6#textinicio {
-    font-size: 18px;
-    color: #a1a1a1!important;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 0px 0;
-}
-
+    h6 {
+        font-size: 18px;
+        color: #002943;
+        font-family: 'Bitter', serif;
+        font-weight: 400;
+        text-align: center;
+        margin: 0 0 0px 0;
+    }
+    h6#textinicio {
+        font-size: 18px;
+        color: #a1a1a1!important;
+        font-family: 'Bitter', serif;
+        font-weight: 400;
+        text-align: center;
+        margin: 0 0 0px 0;
+    }
     .section-title h2 {
         margin: 0px 0px!important;
         flex-direction: row!important;
@@ -2193,29 +2288,40 @@ h6#textinicio {
         font-size: 80px!important;
         flex-wrap: wrap;
     }
-    
-
     #Portfolio {
         padding: 0px 0px;
         background-color: #F4B534!important;
         width: 100%;
     }
+    .navbar {
+        border: 0px solid #F4B534;
+        min-height: 40px;
+        margin-bottom: 0px;
+        width: 100%;
+        min-height: 40px;
+        margin-bottom: 0px;
+        text-align: left!important;
+        margin: 0.5%;
+        display: inline-block;
+        background-color: #002943!important;
+    }
     .navbar-light .navbar-toggler-icon {
-        vertical-align: middle!important;
+        vertical-align: middle !important;
         color: #F4B534;
         display: inline-flex;
         width: 1.5em;
         height: 1.5em;
         background-size: 100% 100%;
         flex-direction: row;
+        background-color: #FEB11E;
     }
     .navbar-light .navbar-toggler {
-        vertical-align: middle!important;
-        color: #F4B534;
+        color: rgb(196, 196, 196);
         display: inline-flex;
         position: center;
         background-size: 100% 100%;
         flex-direction: row;
+        background-color: #FEB11E;
     }
     /* Portfolio Filters */
     .portfolio-item .portfolio_img {
@@ -2290,20 +2396,18 @@ h6#textinicio {
         color: #002943;
     }
     #filters ul li a:hover h5, #filters ul li a.active h5 {
-    
-            background: none repeat scroll 0 0 #f7f7f7;
-            border-radius: 4px;
-            display: inline-block;
-            font-size: 12px;
-            line-height: 20px;
-            margin-bottom: 5px;
-            padding: 10px 22px;
-            text-transform: uppercase;
-            transition: all 0.3s ease-in-out 0s;
-            background: transparent;
-            border: #F4B534 solid 1px;
-            color: #7C7C7C;
-        
+        background: none repeat scroll 0 0 #f7f7f7;
+        border-radius: 4px;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 5px;
+        padding: 10px 22px;
+        text-transform: uppercase;
+        transition: all 0.3s ease-in-out 0s;
+        background: transparent;
+        border: #F4B534 solid 1px;
+        color: #7C7C7C;
     }
     .testef {
         vertical-align: middle!important;
@@ -2342,10 +2446,30 @@ h6#textinicio {
         top: 100%;
         padding-top: 1mm;
     }
+    .textQsAmarelo {
+        padding: 1px;
+        font-size: 18px!important;
+        text-align: center!important;
+        color: #dbb09a!important;
+        font-family: 'Bitter', serif;
+        line-height: 20px;
+        margin: 0;
+        top: 100%;
+        padding-top: 1mm;
+    }
     .img-fluid {
         max-width: 100%;
         height: auto;
         padding-top: 2.5rem;
+        
+    }
+    .img-fluid2 {
+        width: 100%;
+        
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .aboutUsReverse {
         background-color: #22682a;
@@ -2472,7 +2596,6 @@ h6#textinicio {
         font-size: 25px!important;
         padding: 11px 0;
     }
-
     .teste {
         font-size: 80px;
         color: #F4B534;
@@ -2492,7 +2615,6 @@ h6#textinicio {
         background: #F4B534;
     }
     .navbar-inverse .navbar-toggle {
-        background: url('../img/code-site.png') no-repeat;
         border-color: transparent;
     }
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
@@ -2542,17 +2664,6 @@ h6#textinicio {
         float: left;
         width: 100%;
         text-align: left;
-    }
-    .navbar {
-        border: 0px solid #F4B534;
-        min-height: 40px;
-        margin-bottom: 0px;
-        width: 100%;
-        min-height: 40px;
-        margin-bottom: 0px;
-        text-align: center!important;
-        margin: 0.5%;
-        display: inline-block;
     }
     .team_area {
         width: 99%;
@@ -2689,9 +2800,6 @@ h6#textinicio {
     }
     .menus-full .menu .food {
         color: #23292c;
-    }
-    .menus-full .menu .food .food-desc .dots {
-        background: url(../img/template-assets/dots-dark.png) left 14px repeat-x;
     }
     .menus-full .menu-meals-container {
         padding-left: 70px;
@@ -2904,5 +3012,34 @@ h6#textinicio {
     .social_links li a:hover, .social_links li a:focus {
         text-decoration: none;
         border-radius: 80px;
+    }
+    .garden-mobile-cover {
+ 
+        background-size: cover;
+        background-position: 50% 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block
+    }
+    .carousel {
+        display: block;
+        text-align: center;
+    }
+
+        .carousel {
+            display: block;
+            text-align: center;
+        }
+        .team {
+            display: none;
+        }
+    
+    .col-lg-12.wow.fadeInLeft {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }

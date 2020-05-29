@@ -22,7 +22,7 @@
   var getStyleProperty = function( propName ) {
     var style = document.documentElement.style,
         prefixed;
-
+    console.log(style);
     // test standard property first
     if ( typeof style[propName] === 'string' ) {
       return propName;

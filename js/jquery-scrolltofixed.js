@@ -545,7 +545,10 @@
         bottom : -1,
         zIndex : 1000,
         baseClassName: 'scroll-to-fixed-fixed'
+
+       
     };
+
 
     // Returns enhanced elements that will fix to the top of the page when the
     // page is scrolled.
